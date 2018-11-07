@@ -1,0 +1,43 @@
+.swing-div{
+  width: 100%;
+  height: 460px;
+  position: relative;
+
+}
+.img-container{
+  width: 100%;
+  height: 100%;
+}
+.img-container>a{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  overflow: hidden;
+
+}
+.img-container>a>img{
+  width: 100%;
+  height: 100%;
+}
+.dot-point{
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+}
+.dot-point>li{
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  float: left;
+  margin-right: 2px;
+  border: 1px solid #737373;
+  cursor: pointer;
+}
+.dot-point>li:hover{
+  background-color: red;
+}
+.changeBck{
+  background-color: hsla(0, 0%, 100%, 0.65);
+
+}

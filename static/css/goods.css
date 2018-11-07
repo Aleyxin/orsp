@@ -1,0 +1,83 @@
+@media only screen and (min-width: 380px) and (max-width: 768px){
+  .container{
+    width: 100%!important;
+    margin: 0 auto;
+  }
+  .goods>div{
+    width: 80%!important;
+    height: 100%!important;
+    position: relative;
+    left: 10%;
+  }
+  .goods>div>div>img{
+    width: 100%;
+    height: 100%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .container{
+    width: 520px!important;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .container{
+    width: 790px!important;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .container{
+    width: 86%!important;
+  }
+}
+a:hover{
+  color: red!important;
+}
+div[class*="col-"]{
+}
+.container{
+  margin: 0 auto;
+}
+.goods>div{
+  width: 300px;
+  padding: 15px;
+}
+.goods>div>div{
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.goods img{
+  width: 100%;
+}
+.goods>div>div img{
+  width: 200px!important;
+  height: 200px;
+  cursor: pointer;
+}
+
+.goods>div>p{
+  height: 20px;
+  overflow: hidden;
+}
+.goods>div>p:nth-of-type(1)>a{
+  color: red!important;
+}
+.goods>div>p>a:last-child{
+  font-size: 14px;
+}
+.title{
+  margin-bottom: 20px;
+  font-size: 12px;
+  font-weight: 300;
+}
+.goods>div>p:nth-child(3){
+  margin-top: 10px;
+}
+.goods>div>p:nth-child(3)+a{
+  float: left;
+}
+.goods>div>p:nth-child(3)+a>span{
+  margin-right: 3px;
+}
+.goods>div>p:nth-child(3)+a+a{
+  float: right;
+}
